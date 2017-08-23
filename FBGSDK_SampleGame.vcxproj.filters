@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include\FBG">
+      <UniqueIdentifier>{cfa4082e-d92f-4e10-bba4-5c087a77ff3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Game.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_AccessToken.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_AppRequest.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_AppRequestRecipient.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_ErrorResponse.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_FeedShare.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_FormData.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_HasLicense.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_KeyValuePairType.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_LoginScopes.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Message.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_MessageType.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_OCSdkAccountType.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_OVRAccessToken.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Platform.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Platform_Internal.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_PlatformInitializeResult.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_PlatformVersion.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Purchase.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Requests_AppEvent.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Requests_FeedShare.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Requests_Login.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Requests_OVRAccessToken.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Requests_Purchase.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Requests_Share.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FBG_Types.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OVR_Platform_Defs.h">
+      <Filter>include\FBG</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
